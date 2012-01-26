@@ -1,0 +1,13 @@
+RebusEDI_Cron README
+
+Files needed for Evergreen:
+edi_order_cron.pl
+edi_quote_cron.pl
+rotate_edi_logs.pl
+
+Files needed for Koha:
+edi_quote_cron.pl
+rotate_edi_logs.pl
+
+For both systems:
+Comment/uncomment line setting $edidir as required
